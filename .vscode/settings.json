@@ -44,6 +44,7 @@
 		"GFLW",
 		"glfw",
 		"gracely",
+		"linalg",
 		"LOGI",
 		"LOGW",
 		"mavlink",

@@ -1,9 +1,10 @@
-// module;
+module;
 #include <cstdio>
-// export module main;
+export module main;
 import arithmetic;
-
+import linalg;
 int main() {
-  std::printf("hello world, %d\n", arithmetic::adder::add(1, 2));
-  std::printf("hello world, %d\n", arithmetic::adder::add(1, 2));
+  // std::printf("hello world, %f\n", linalg::Matrix<double>::add(3, 4));
+  std::printf("hello world, %d\n", 5);
+  linalg::Matrix<double>::test();
 }
